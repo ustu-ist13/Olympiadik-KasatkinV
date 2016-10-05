@@ -6,18 +6,13 @@ namespace Task1
     {
         static void Main(string[] args)
         {
-            int f = 0;
-            while (f >= 11 || f < 1)
-            {
-                f = Convert.ToInt32(Console.ReadLine());
-            }
+            int f = Convert.ToInt32(Console.ReadLine());
             if (((4*60) / 45) >= 12 - f)
             {
                 Console.WriteLine("YES");
             }
             else Console.WriteLine("NO");
             Console.ReadKey();
-
         }
     }
 }
